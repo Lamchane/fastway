@@ -12,11 +12,11 @@ export default function Home() {
 
       <nav className="border-blue-600 bg-gradient-to-r from-blue-600 via-blue-900 to-blue-400">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
+          <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
+            <Image
               src="/assets/images/logo.png"
               className="h-10"
               alt="fastway_logo"
@@ -24,7 +24,7 @@ export default function Home() {
             {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Fastway
             </span> */}
-          </a>
+          </Link>
         </div>
       </nav>
 
@@ -140,7 +140,7 @@ export default function Home() {
           {/* Left: About + Socials */}
           <div>
             <div>
-              <img
+              <Image
                 src="/assets/images/logo.png"
                 className="h-14 w-40"
                 alt="fastway_logo"
